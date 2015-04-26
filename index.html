@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developing Data Projects</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Developing Data Projects">
+  <meta name="author" content="Cobus Nel">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Developing Data Projects</h1>
+    <h2>Course Project submission</h2>
+    <p>Cobus Nel<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This presentation provide an overview of the Shiny application
+that was developed as part of the course requirments for 
+Developing Data Projects.</p>
+
+<p>It contains the following:</p>
+
+<ol>
+<li>Overview of the application</li>
+<li>Overview of the IRIS dataset</li>
+<li>Details of online application</li>
+<li>Instructions for use</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Overview of the application</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>The shiny application can be used to view IRIS dataset variables plotted against each other.</li>
+<li>It was developed using the Shiny toolset.</li>
+<li>Shiny allow publishing the application live on the Internet.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Overview of the IRIS dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Iris flower data set or Fisher&#39;s Iris data set is a multivariate data set introduced by Sir Ronald Fisher (1936) as an example of discriminant analysis. It is sometimes called Anderson&#39;s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. </p>
+
+<p>Two of the three species were collected in the Gaspé Peninsula &quot;all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus&quot;.</p>
+
+<p>(source Wikipedia)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Details of online application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The online application will plot IRIS data against each other as below</p>
+
+<pre><code class="r">plot(x=iris[[&quot;Sepal.Length&quot;]], y=iris[[&quot;Sepal.Width&quot;]])
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Instructions for use</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Browse to the following url: <a href="https://knldemo.shinyapps.io/shiny_project/">https://knldemo.shinyapps.io/shiny_project/</a></p>
+
+<ol>
+<li>Select the X parameter</li>
+<li>Select the y parameter</li>
+<li>The system will plot the variables.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Overview'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Overview of the application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Overview of the IRIS dataset'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Details of online application'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Instructions for use'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
